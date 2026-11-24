@@ -1,0 +1,11 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Proveedores</h2>
+  @if (error) {
+    <div class="alert alert-danger">{{ error }}</div>
+  }
+  @if (cargando) {
+    <p>Cargando proveedores...</p>
+  } @else {
+    <app-table [data]="proveedores"></app-table>
+  }
+</div>

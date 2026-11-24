@@ -1,0 +1,16 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #20666B;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+td, th {
+  padding: 12px;
+  text-align: left;
+}
